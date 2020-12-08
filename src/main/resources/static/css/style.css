@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #3F5AB0;
+}
+.container1{
+	
+	
+	
+	background: #3F5AB0;
+	
+}
+
+/*estilo cabecera*/
+.superior{
+	overflow: hidden;
+	background: orange;
+}
+.logo{
+	float: left;
+	width: 300px;
+}
+.menu{
+	float: left;
+	width: 1000px;
+	margin: 15px 0 15px 0;
+	background: orange;
+	border-radius: 6px;
+}
+
+.menu li:hover>ul{
+	display: block;
+}
+
+.menu li ul li {
+	position: relative;
+	
+	
+}
+
+.menu li ul li ul{
+	right: -165px;
+	top:-3px;
+}
+
+.menu li a:hover{
+	background: olive;
+	color: white;
+}
+
+
+.marca{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: aqua;
+	margin: 10px 8px;
+}
+/*estilos para menu*/
+
+.mprincipal li{
+	
+	list-style: none;/*para borarr los puntos de menu*/
+	
+}
+.mprincipal>li{
+	float: left;
+}
+.mprincipal>li>a{
+	border-radius: 6px;
+}
+.mprincipal li a{
+	text-decoration: none;
+	padding: 10px 8px;
+	background: orange;
+	display: block;
+	color: white;
+}
+.mprincipal li ul{
+	display: none;/*para q no se vea las obsiones del menu como ciclismo,etc.*/
+}
+.mprincipal li:hover>ul{
+	display: block;/*tmb sirve para volver a ver las obsiones de menu*/
+	position: absolute;
+}
+.mprincipal li ul li ul{
+	right:-90px;
+	top: 60px;
+	
+	
+}
+
+.titulo{
+	text-align: center;
+	font-size: 60px;
+	font-family: cursive;
+	color: white;
+}
+
+#container{
+	
+	margin: 0;
+}
+
+
+
+.panel{
+	text-align: center;
+	
+}
+
+
+
